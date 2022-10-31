@@ -2,7 +2,7 @@
 
 ![bash screenshot](./images/screenshot2.png)
 
-![bash screenshot](./images/screenshot2.png)
+![bash screenshot](./images/screenshot3.png)
 
 ## Videos
 
