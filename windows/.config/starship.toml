@@ -53,7 +53,7 @@ disabled = false
 
 [custom.docker]
 command = "echo '  '"
-file = ["Dockerfile", 'docker-compose.yml', "docker-compose.yaml"]
+files = ["Dockerfile", 'docker-compose.yml', "docker-compose.yaml"]
 when = """ comand -v docker &> /dev/null; exit (echo $?); """
 format = " [$output](color7)"
 
@@ -77,7 +77,7 @@ use_12hr = true
 disabled = false
 read_only = " "
 truncation_length = 4
-truncate-to_repo = false
+truncate_to_repo = false
 format = "[$read_only](color4)[$path](color4) "
 home_symbol = ""
 
